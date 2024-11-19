@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export const API_BASE = "http://192.168.1.101:8000";  //这块改地址！！！！！！！！！
+export const API_BASE = "http://192.168.1.101:8000";  //这块改地址！！！！！！！！
 
 // Axios 实例配置
 const api = axios.create({
