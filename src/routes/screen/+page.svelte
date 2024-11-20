@@ -25,7 +25,7 @@
   // 翻转部门名称
   function handleClick() {
     if (departments[0] === '东所') {
-      departments = ['空港', '王兰庄', '金角', '聚丰', '明成'];
+      departments = ['空港', '金角', '王兰庄', '聚丰', '明成'];
     } else {
       departments = ['东所', '南所', '西所', '北所', '滨海所'];
     }
@@ -74,7 +74,7 @@
           {/each}
         {:else}
           <tr>
-            <td colspan="3" class="text-center align-middle">暂无排名数据，请听主持人滴声抢答<small>（排名表每1秒刷新一次数据）</small></td>
+            <td colspan="3" class="text-center align-middle">暂无排名数据，请听主持人滴声抢答<br><small>（排名表每1秒刷新一次数据）</small></td>
           </tr>
         {/if}
       </tbody>
@@ -84,7 +84,7 @@
   <!-- 翻转部门按钮 -->
   <div class="floating-button">
     <button class="btn btn-primary btn-small" on:click={handleClick}>
-      翻转部门
+      换
     </button>
   </div>
 
@@ -93,7 +93,7 @@
     <small class="text-muted">
       &copy;2024  | 此网站属于业务监督科<b>张硕</b>唯一所有 | 仅授权车务科进行业务竞赛专用 | 如遇故障请联系 13920148266 | <b>保留所有权利</b>
       <br />
-      <small>编码技术栈 前端：Svelte Kit + Bootstrap | 后端：Python + FastAPI | 代码辅助：ChatGPT 4.0 mini</small>
+      <small>编码技术栈 前端：SvelteKit + Bootstrap | 后端：Python + FastAPI | 代码辅助：ChatGPT 4O mini</small>
     </small>
   </div>
 </div>
