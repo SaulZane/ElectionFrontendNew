@@ -93,7 +93,7 @@
     <small class="text-muted">
       &copy;2024  | 此网站属于业务监督科<b>张硕</b>唯一所有 | 仅授权车务科进行业务竞赛专用 | 如遇故障请联系 13920148266 | <b>保留所有权利</b>
       <br />
-      <small>编码技术栈 前端：SvelteKit + Bootstrap | 后端：Python + FastAPI | 代码辅助：ChatGPT 4O mini</small>
+      <small>编码技术栈 前端：SvelteKit + Bootstrap | 后端：Python + FastAPI | 代码辅助：ChatGPT 4O mini | 特别感谢大昌工作站王博提供硬件服务设备！</small>
     </small>
   </div>
 </div>
